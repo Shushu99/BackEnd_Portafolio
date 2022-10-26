@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/portfolio")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://giuliana-massanet.web.app")
 public class ControlPort {
     @Autowired
     ServicePort servicePort;
