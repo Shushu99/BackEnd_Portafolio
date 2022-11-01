@@ -15,7 +15,7 @@ public class CustomErrorController implements ErrorController {
   String error(HttpServletRequest request) {
     return "<h1>Error occurred</h1>";
   }
-
+  
   public String getErrorPath() {
     return "/error";
   }
